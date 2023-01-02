@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: url(background.jpg)center center no-repeat;
+    background-size: cover;
+    height:100vh;
+    padding: 3em;
+    font-family: 'Montserrat', sans-serif;   
+    color: white; 
+}
+
+h3 {font-size: 20px;}
+p {font-size: 13px;}
+
+.container{
+    max-width: 900px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    padding:3em;
+}
+.header{
+    margin: auto;
+}
+.logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.title{
+    color: #00dd00;
+    font-family: 'Montserrat Subrayada', sans-serif;
+    text-align: center;
+    font-size: 1.5em;
+    margin: .7em;
+}
+
+nav{
+    background-color: #00dd00;
+    padding:10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li {
+    background-color: white;
+    color: rgb(50, 50, 50);
+    padding: 5px 14px;
+    border-radius: 25px;
+    margin: 3px 20px;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 1px solid green;
+}
+
+li:hover{
+    color: #00dd00;
+}
+
+.monopattini{
+    padding:5px;
+}
+
+.monopattino{
+    margin: 32px 0px;
+}
+
+.nome, .posizione{
+    display: flex;
+    align-items: center;
+    /*margin-top: 10px;*/
+    margin-bottom: 5px;
+}
+
+input[type="checkbox"], .arrow {
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+
+.batteria {
+    width: 100%;
+    height: 20px;
+    padding:3px;
+    margin-top: 5px;
+}
+.red{
+    width: 20%;
+    background-color: rgb(219, 4, 4);
+}
+
+.orange{
+    width: 40%;
+    background-color: orange;
+}
+
+.green{
+    width: 80%;
+    background-color: green;
+}
+
+.sign {
+    font-size: 12px;
+    text-align: center;
+    color: black;
+    margin: 10px;
+}
+
+
+@media (min-height: 700px), screen {
+    .container{
+        width: 95%;
+        margin: auto;
+        background-color: rgba(0, 0, 0, 0.6);
+        border-radius: 20px;
+        padding:10px;
+    }
+    li {
+        padding: 5px 14px;
+        margin: 3px 3px;
+        font-size: 10px;
+    }
+  }
